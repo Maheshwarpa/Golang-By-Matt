@@ -1,0 +1,16 @@
+Map : It is data structure similar to dictionary.
+
+var m map[string]int  -  here we have defined a map with key as string and value as integer. It is a nil map and has no space. If you perform operations like reading the values or looping through it, you will get the default value as Zero because we have return type, i mean the value type is of Integer.
+m["king"]=1     - Here it throws an panic error because we cannot assign or enter value sinto a nil map.
+
+
+mp := make(map[string]int) - Here we have created an map an intiialized it to empty map. It is non-nil map pointed to the hash table. if we try to perform any operations like reading through it or looping through it, we get the default value because it defaults to ints return type i mean hereits an integer.
+mp["King"]=1
+
+m=mp - Here it doesnt throw an error because we are assigning a pointer to the hash table which references to that memory address.
+
+
+var kl map[string]int{} -  it is non-nil map with an empty map assigned to it.
+
+
+** Key should always be the datatype that we can compare with. it shouldn't be like slice, map, function.
