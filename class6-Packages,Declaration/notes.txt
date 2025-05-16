@@ -1,0 +1,13 @@
+Packages - please make sure to avoid the circular dependencies while using the packages. 
+incase if you have any such dependancy in them, then please add another package and add the respective things in it.
+
+variables can be defined of any type and even custom types with the use of type keyword.
+variables defined in each function has their scope in only per that function. Its scope ends there.
+
+We can use labels for the looping function in order to control the flow of execution with respect to nested loop.
+
+Looping around a map in go has a separate importance.
+we have an option of looping around the key separately and its key,value.
+
+switch statement don't need to have break statement essentially.
+we can iterate the switch with based on true as well.
