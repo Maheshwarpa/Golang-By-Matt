@@ -30,4 +30,5 @@ func main() {
 	fmt.Printf("%v\n", mp)
 	fmt.Printf("%#v\n", mp)
 
+	ReadFile()
 }
