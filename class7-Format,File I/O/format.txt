@@ -1,0 +1,6 @@
+%d - Integer
+%s - strings
+%v - value of the interface
+%T - Tells the type of the value
+%q - formats the value in double quotes
+%#v - tells the value including type and its information.
