@@ -1,0 +1,5 @@
+closure is function inside a function
+scape analysy figure the scope of the function
+Its a runtime thing.
+
+Basically it plays with the scope of the variables.
