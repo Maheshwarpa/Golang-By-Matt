@@ -1,0 +1,3 @@
+Slices are built on top of an array
+
+[k:l:m] -  where length = l-k, capacity = m-k
