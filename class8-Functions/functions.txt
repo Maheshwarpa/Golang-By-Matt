@@ -1,0 +1,13 @@
+Functions are one type where the order of the input parameters that we pass matters.
+
+We do have things which can be referred as pass by value or pass by reference
+
+
+Arrays,numbers,struct,boolean and other datatypes are pass by value
+Slice, Map,channels,strings are pass by reference
+
+when passed the maps as a avalue its underlying things are been mapped to an hash table. When updating the elements it gets updated in the original one as well.
+But when you try to re initialize it, then it turns or maps into another hashtable so further modifyication to it doesnt change the things to the original.
+
+
+Defer function executes once the surrounding function completes. It follows the LIFO.
